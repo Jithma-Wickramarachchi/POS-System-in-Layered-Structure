@@ -65,6 +65,14 @@ public class CustomerTableFormController {
                     editBtn,
                     deleteBtn
             );
+            deleteBtn.setOnAction(actionEvent -> {
+                try {
+                    deleteCustomer(c.getId());
+                    loadCustomerTable();
+                } catch (SQLException |ClassNotFoundException e) {
+                    throw new RuntimeException(e);
+                }
+            });
             tmList.add(c);
         }
         customerTable.setItems(tmList);
@@ -86,4 +94,5 @@ public class CustomerTableFormController {
         stage.setTitle("Add Customer");
         stage.show();
     }
+
 }

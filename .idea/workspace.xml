@@ -4,11 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4e67e92f-5b93-4dcd-a8e6-2780fe744f44" name="Changes" comment="Customer Table Form Done">
+    <list default="true" id="4e67e92f-5b93-4dcd-a8e6-2780fe744f44" name="Changes" comment="Customer Adding and Validations">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/controller/CustomerFormController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/controller/CustomerFormController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/dao/CustomerModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dao/CustomerModel.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/dao/impl/CustomerModelImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dao/impl/CustomerModelImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/controller/CustomerTableFormController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/controller/CustomerTableFormController.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -139,7 +137,7 @@
       <option name="presentableId" value="Default" />
       <updated>1701614731686</updated>
       <workItem from="1701614732717" duration="15628000" />
-      <workItem from="1701660376845" duration="17019000" />
+      <workItem from="1701660376845" duration="18118000" />
     </task>
     <task id="LOCAL-00001" summary="Customer Table Form Done">
       <option name="closed" value="true" />
@@ -165,7 +163,15 @@
       <option name="project" value="LOCAL" />
       <updated>1701673346634</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Customer Adding and Validations">
+      <option name="closed" value="true" />
+      <created>1701689285496</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1701689285496</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -174,7 +180,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Initial commit" />
     <MESSAGE value="Customer Table Form Done" />
-    <option name="LAST_COMMIT_MESSAGE" value="Customer Table Form Done" />
+    <MESSAGE value="Customer Adding and Validations" />
+    <option name="LAST_COMMIT_MESSAGE" value="Customer Adding and Validations" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
