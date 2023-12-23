@@ -39,7 +39,11 @@ public class DashboardFormController {
         timer.start();
     }
 
-    public void itemBtnOnAction(ActionEvent actionEvent) {
+    public void itemBtnOnAction(ActionEvent actionEvent) throws IOException {
+        Stage stage = (Stage) dashboardPane.getScene().getWindow();
+        stage.setScene(new Scene(FXMLLoader.load(getClass().getResource("/view/ItemForm.fxml"))));
+        stage.setTitle("Add Item");
+        stage.show();
     }
 
     public void ordersBtnOnAction(ActionEvent actionEvent) {

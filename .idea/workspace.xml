@@ -4,11 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4e67e92f-5b93-4dcd-a8e6-2780fe744f44" name="Changes" comment="Initialize Converting MVC to L.S.">
-      <change afterPath="$PROJECT_DIR$/src/main/resources/image/grocery-image 2.jpg" afterDir="false" />
+    <list default="true" id="4e67e92f-5b93-4dcd-a8e6-2780fe744f44" name="Changes" comment="DashBoard UI Done">
+      <change afterPath="$PROJECT_DIR$/src/main/java/controller/ItemFormController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/view/ItemForm.fxml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/controller/DashboardFormController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/controller/DashboardFormController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/view/DashboardForm.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/view/DashboardForm.fxml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -67,7 +67,7 @@
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
     "git-widget-placeholder": "master",
-    "last_opened_file_path": "C:/Users/HP/IdeaProjects/POS_System_in_Layered_Structure/src/main/resources/image",
+    "last_opened_file_path": "C:/Users/HP/IdeaProjects/POS_System_in_Layered_Structure/src/main/resources/view",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -81,6 +81,7 @@
       <recent name="controller" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\HP\IdeaProjects\POS_System_in_Layered_Structure\src\main\resources\view" />
       <recent name="C:\Users\HP\IdeaProjects\POS_System_in_Layered_Structure\src\main\resources\image" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
@@ -144,7 +145,7 @@
       <updated>1701614731686</updated>
       <workItem from="1701614732717" duration="15628000" />
       <workItem from="1701660376845" duration="18118000" />
-      <workItem from="1703332227263" duration="4347000" />
+      <workItem from="1703332227263" duration="5484000" />
     </task>
     <task id="LOCAL-00001" summary="Customer Table Form Done">
       <option name="closed" value="true" />
@@ -186,7 +187,15 @@
       <option name="project" value="LOCAL" />
       <updated>1703332511818</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="DashBoard UI Done">
+      <option name="closed" value="true" />
+      <created>1703341706660</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1703341706660</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -197,7 +206,8 @@
     <MESSAGE value="Customer Table Form Done" />
     <MESSAGE value="Customer Adding and Validations" />
     <MESSAGE value="Initialize Converting MVC to L.S." />
-    <option name="LAST_COMMIT_MESSAGE" value="Initialize Converting MVC to L.S." />
+    <MESSAGE value="DashBoard UI Done" />
+    <option name="LAST_COMMIT_MESSAGE" value="DashBoard UI Done" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
