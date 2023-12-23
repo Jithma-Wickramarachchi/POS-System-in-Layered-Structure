@@ -18,6 +18,8 @@ public class DashboardFormController {
     public AnchorPane dashboardPane;
     public Label timeLable;
     public Label dateLable;
+    public Button itemBtn;
+    public Button ordersBtn;
 
     public void custBtnOnAction(ActionEvent actionEvent) throws IOException {
         Stage stage = (Stage) dashboardPane.getScene().getWindow();
@@ -30,10 +32,16 @@ public class DashboardFormController {
         AnimationTimer timer = new AnimationTimer() {
             @Override
             public void handle(long now) {
-                timeLable.setText(LocalDateTime.now().format(DateTimeFormatter.ofPattern("HH:mm:ss a")));
+                timeLable.setText(LocalDateTime.now().format(DateTimeFormatter.ofPattern("hh:mm:ss a")));
                 dateLable.setText(LocalDateTime.now().format(DateTimeFormatter.ofPattern("yyyy-MM-dd")));
             }
         };
         timer.start();
+    }
+
+    public void itemBtnOnAction(ActionEvent actionEvent) {
+    }
+
+    public void ordersBtnOnAction(ActionEvent actionEvent) {
     }
 }

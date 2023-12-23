@@ -4,9 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4e67e92f-5b93-4dcd-a8e6-2780fe744f44" name="Changes" comment="Customer Adding and Validations">
+    <list default="true" id="4e67e92f-5b93-4dcd-a8e6-2780fe744f44" name="Changes" comment="Initialize Converting MVC to L.S.">
+      <change afterPath="$PROJECT_DIR$/src/main/resources/image/grocery-image 2.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/controller/CustomerTableFormController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/controller/CustomerTableFormController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/controller/DashboardFormController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/controller/DashboardFormController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/view/DashboardForm.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/view/DashboardForm.fxml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -58,24 +60,28 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;onboarding.tips.debug.path&quot;: &quot;C:/Users/HP/IdeaProjects/POS_System_in_MVC/src/main/java/org/example/Main.java&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "git-widget-placeholder": "master",
+    "last_opened_file_path": "C:/Users/HP/IdeaProjects/POS_System_in_Layered_Structure/src/main/resources/image",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "onboarding.tips.debug.path": "C:/Users/HP/IdeaProjects/POS_System_in_MVC/src/main/java/org/example/Main.java",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
       <recent name="controller" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\HP\IdeaProjects\POS_System_in_Layered_Structure\src\main\resources\image" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\HP\IdeaProjects\POS_System_in_MVC\src\main\java\Controller" />
@@ -138,6 +144,7 @@
       <updated>1701614731686</updated>
       <workItem from="1701614732717" duration="15628000" />
       <workItem from="1701660376845" duration="18118000" />
+      <workItem from="1703332227263" duration="4347000" />
     </task>
     <task id="LOCAL-00001" summary="Customer Table Form Done">
       <option name="closed" value="true" />
@@ -171,7 +178,15 @@
       <option name="project" value="LOCAL" />
       <updated>1701689285496</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Initialize Converting MVC to L.S.">
+      <option name="closed" value="true" />
+      <created>1703332511818</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1703332511818</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -181,7 +196,8 @@
     <MESSAGE value="Initial commit" />
     <MESSAGE value="Customer Table Form Done" />
     <MESSAGE value="Customer Adding and Validations" />
-    <option name="LAST_COMMIT_MESSAGE" value="Customer Adding and Validations" />
+    <MESSAGE value="Initialize Converting MVC to L.S." />
+    <option name="LAST_COMMIT_MESSAGE" value="Initialize Converting MVC to L.S." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
