@@ -31,7 +31,11 @@ public class ItemFormController {
     public void addBtnOnAction(ActionEvent actionEvent) {
     }
 
-    public void viewBtnOnAction(ActionEvent actionEvent) {
+    public void viewBtnOnAction(ActionEvent actionEvent) throws IOException {
+        Stage stage = (Stage) itemPane.getScene().getWindow();
+        stage.setScene(new Scene(FXMLLoader.load(getClass().getResource("/view/ItemTableForm.fxml"))));
+        stage.setTitle("Item Table");
+        stage.show();
     }
 
     public void clearBtnOnAction(ActionEvent actionEvent) {
