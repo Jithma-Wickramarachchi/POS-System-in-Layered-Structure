@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="ordersPane" prefHeight="600.0" prefWidth="800.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.OrdersFormController">
+   <children>
+      <Label alignment="CENTER" layoutX="241.0" layoutY="26.0" prefHeight="88.0" prefWidth="319.0" text="Add Orders">
+         <font>
+            <Font size="41.0" />
+         </font>
+      </Label>
+      <Label layoutX="65.0" layoutY="214.0" prefHeight="31.0" prefWidth="100.0" text="Item Code">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Label>
+      <Label layoutX="64.0" layoutY="157.0" text="Customer ID">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Label>
+      <Label layoutX="63.0" layoutY="276.0" text="QTY">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Label>
+      <Label layoutX="64.0" layoutY="338.0" text="Price">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Label>
+      <TextField fx:id="itemDescTxtField" editable="false" layoutX="378.0" layoutY="217.0" prefHeight="26.0" prefWidth="225.0" />
+      <TextField fx:id="qtyTxtField" layoutX="214.0" layoutY="278.0" />
+      <TextField fx:id="priceTxtField" editable="false" layoutX="214.0" layoutY="340.0" prefHeight="26.0" prefWidth="130.0" />
+      <Button fx:id="addToCartBtn" layoutX="495.0" layoutY="267.0" mnemonicParsing="false" onAction="#addToCartBtnOnAction" prefHeight="75.0" prefWidth="130.0" text="Add to Cart" />
+      <Button fx:id="viewOrdersBtn" layoutX="189.0" layoutY="457.0" mnemonicParsing="false" onAction="#viewOrdersBtnOnAction" prefHeight="88.0" prefWidth="423.0" text="View Orders" />
+      <Button fx:id="clearBtn" layoutX="638.0" layoutY="267.0" mnemonicParsing="false" onAction="#clearBtnOnAction" prefHeight="75.0" prefWidth="123.0" text="Clear" />
+      <Button fx:id="backBtn" layoutX="33.0" layoutY="39.0" mnemonicParsing="false" onAction="#backBtnOnAction" text="Back" />
+      <ComboBox fx:id="custIdBox" layoutX="215.0" layoutY="158.0" prefWidth="150.0" />
+      <ComboBox fx:id="itemCodeBox" layoutX="215.0" layoutY="216.0" prefHeight="28.0" prefWidth="150.0" />
+      <TextField fx:id="custNameTxtField" editable="false" layoutX="378.0" layoutY="158.0" prefHeight="26.0" prefWidth="285.0" />
+      <TextField fx:id="unitPriceTxtField" editable="false" layoutX="612.0" layoutY="217.0" prefHeight="26.0" prefWidth="137.0" />
+      <Button fx:id="cartBtn" layoutX="681.0" layoutY="38.0" mnemonicParsing="false" onAction="#cartBtnOnAction" prefHeight="67.0" prefWidth="85.0" text="Cart" />
+   </children>
+</AnchorPane>

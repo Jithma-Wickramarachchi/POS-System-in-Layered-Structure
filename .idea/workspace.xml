@@ -4,11 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4e67e92f-5b93-4dcd-a8e6-2780fe744f44" name="Changes" comment="Items UI Done">
-      <change afterPath="$PROJECT_DIR$/src/main/java/controller/ItemTableFormController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/view/ItemTableForm.fxml" afterDir="false" />
+    <list default="true" id="4e67e92f-5b93-4dcd-a8e6-2780fe744f44" name="Changes" comment="Item Form UI Done">
+      <change afterPath="$PROJECT_DIR$/src/main/java/controller/OrdersFormController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/view/OrdersForm.fxml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/controller/ItemFormController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/controller/ItemFormController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/controller/DashboardFormController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/controller/DashboardFormController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/view/DashboardForm.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/view/DashboardForm.fxml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -145,7 +147,7 @@
       <updated>1701614731686</updated>
       <workItem from="1701614732717" duration="15628000" />
       <workItem from="1701660376845" duration="18118000" />
-      <workItem from="1703332227263" duration="8050000" />
+      <workItem from="1703332227263" duration="14163000" />
     </task>
     <task id="LOCAL-00001" summary="Customer Table Form Done">
       <option name="closed" value="true" />
@@ -203,7 +205,15 @@
       <option name="project" value="LOCAL" />
       <updated>1703342932829</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Item Form UI Done">
+      <option name="closed" value="true" />
+      <created>1703347444786</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1703347444786</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -216,7 +226,8 @@
     <MESSAGE value="Initialize Converting MVC to L.S." />
     <MESSAGE value="DashBoard UI Done" />
     <MESSAGE value="Items UI Done" />
-    <option name="LAST_COMMIT_MESSAGE" value="Items UI Done" />
+    <MESSAGE value="Item Form UI Done" />
+    <option name="LAST_COMMIT_MESSAGE" value="Item Form UI Done" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
