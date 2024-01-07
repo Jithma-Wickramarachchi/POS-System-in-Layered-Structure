@@ -37,7 +37,6 @@ public class ItemFormController {
         stage.setTitle("Item Table");
         stage.show();
     }
-
     public void clearBtnOnAction(ActionEvent actionEvent) {
     }
 }

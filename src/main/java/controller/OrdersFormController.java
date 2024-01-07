@@ -4,6 +4,7 @@ import javafx.event.ActionEvent;
 import javafx.fxml.FXMLLoader;
 import javafx.scene.Scene;
 import javafx.scene.control.Button;
+import javafx.scene.control.ComboBox;
 import javafx.scene.control.TextField;
 import javafx.scene.layout.AnchorPane;
 import javafx.stage.Stage;
@@ -19,6 +20,16 @@ public class OrdersFormController {
     public Button viewCostBtn;
     public Button clearBtn;
     public Button backBtn;
+    public TextField itemDescTxtField;
+    public TextField qtyTxtField;
+    public TextField priceTxtField;
+    public Button addToCartBtn;
+    public Button viewOrdersBtn;
+    public ComboBox custIdBox;
+    public ComboBox itemCodeBox;
+    public TextField custNameTxtField;
+    public TextField unitPriceTxtField;
+    public Button cartBtn;
 
     public void addBtnOnAction(ActionEvent actionEvent) {
     }
